@@ -1,0 +1,78 @@
+.input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid var(--grey1-color);
+    padding: 0 16px;
+    padding-top: 10px;
+    transition: all .15s ease-in-out;
+    color: var(--black-color);
+    background: none;
+    z-index: 2;
+    position: relative;
+}
+
+.input:focus, .input.initial:focus{
+    border: 1px solid var(--black-color);
+}
+
+.input.initial:invalid ~ label {
+    color: var(--grey3-color)
+}
+
+.input.initial:invalid {
+    border: 1px solid var(--grey1-color);
+}
+
+.input:invalid ~ label {
+    color: var(--error-color);
+}
+
+.input:invalid {
+    border: 1px solid var(--error-color);
+}
+
+.input::-moz-placeholder{
+    color: transparent;
+}
+
+.input::placeholder{
+    color: transparent;
+}
+
+input[type="file"],
+input[type="checkbox"],
+input[type="radio"]{
+    display: none;
+}
+
+textarea.input{
+    height: 147px;
+    border-radius: 16px;
+    padding-top: 20px;
+    resize: none;
+}
+
+.password-show{
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.img__show{
+    width: inherit;
+    height: inherit;
+    fill: var(--grey1-color);
+    transition: all 0.3s ease;
+}
+
+.view{
+    fill: var(--grey3-color);
+}

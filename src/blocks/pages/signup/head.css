@@ -1,0 +1,25 @@
+.sign-up{
+    padding-top: 130px;
+    background: url(../../../image/autorization.png) center top;
+    background-size: 320px;
+    background-repeat: no-repeat;
+    min-height: 586px;
+}
+
+.sign-up3{
+    padding-top: 32px;
+    background: none;
+}
+
+.sign-up__head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.sign-up__logo{
+    display: block;
+    width: 77px;
+    height: 25px;
+}

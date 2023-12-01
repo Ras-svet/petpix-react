@@ -1,0 +1,10 @@
+@import url(head.css);
+@import url(photo.css);
+@import url(info.css);
+@import url(description.css);
+
+.post{
+	margin-bottom: 24px;
+	/* position: relative; */
+	/* display: inline-block; */
+}

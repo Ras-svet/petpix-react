@@ -1,0 +1,15 @@
+.sign-in__end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 44px;
+}
+
+.sign-in__message{
+    color: var(--grey3-color);
+}
+
+.sign-in__message-link{
+    color: var(--orange-color);
+}

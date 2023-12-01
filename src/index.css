@@ -1,0 +1,51 @@
+/* SETTINGS */
+
+@import url(./vendor/normalize.css);
+@import url(./vendor/settings.css);
+
+/* PAGES */
+
+/* Sign in */
+@import url(./blocks/pages/signin/signin.css);
+
+/* Sign up */
+@import url(./blocks/pages/signup/signup.css);
+
+/* Welcome */
+@import url(./blocks/pages/welcome/welcome.css);
+
+/* Forgot */
+@import url(./blocks/pages/forgot/forgot.css);
+
+/* Index */
+@import url(./blocks/pages/index/index.css);
+
+/* Add */
+@import url(./blocks/pages/add/add.css);
+
+/* Profile */
+@import url(./blocks/pages/profile/profile.css);
+
+/* Edit */
+@import url(./blocks/pages/edit/edit.css);
+
+
+/* COMPONENTS */
+
+/* Header */
+@import url(./blocks/components/header.css);
+
+/* Form */
+@import url(./blocks/components/form/form.css);
+
+/* Post */
+@import url(./blocks/components/post/post.css);
+
+/* Head */
+@import url(./blocks/components/head/head.css);
+
+/* Pop up */
+@import url(./blocks/components/popup/popup.css);
+
+/* Text styles */
+@import url(./blocks/components/text.css);

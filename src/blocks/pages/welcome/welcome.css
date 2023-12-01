@@ -1,0 +1,78 @@
+.body__welcome{
+    background: url(../../../image/bg1.jpg) center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    display: flex;
+    min-height: 100vh;
+    padding-top: 56px;
+    background: url(../../../image/bg2.png) center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.welcome__head{
+    display: flex;
+    position: relative;
+}
+
+.welcome__head::before{
+    content: '';
+    display: block;
+    background: url(../../../image/star.svg) center center;
+    background-size: contain;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -47px;
+    top: 34px;
+}
+
+.welcome__title{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.welcome__title::before,
+.welcome__title::after {
+    content: '';
+    display: block;
+    background: url(../../../image/star.svg) center center;
+    background-size: contain;
+    position: absolute;
+}
+
+.welcome__title::before {
+    width: 30px;
+    height: 30px;
+    left: -57px;
+    top: -14px;
+}
+
+.welcome__title::after {
+    width: 23px;
+    height: 23px;
+    left: -16px;
+    top: -37px;
+}
+
+.welcome__btn{
+    display: block;
+    margin-top: 352px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 32px)!important;
+    max-width: 543px!important;
+}
+
+@media (min-width: 574.98px) {
+    .welcome,
+    .body__welcome{
+        background-size: 575px;
+    }
+}
