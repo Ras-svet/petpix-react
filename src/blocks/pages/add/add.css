@@ -1,0 +1,58 @@
+.photo{
+    display: block;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    margin: 0 auto 0 auto;
+}
+
+.pg-viewer-wrapper {
+	justify-content: center !important ;
+}
+
+.pg-viewer-wrapper .pg-viewer {
+	align-items: center !important;
+	display: flex;
+	justify-content: center !important;
+}
+
+.pg-viewer-wrapper .photo-viewer-container {
+	width: 95px !important;
+	height: 95px !important;
+}
+
+.photo {
+	  width: 95px !important;
+    height: 95px !important;
+		/* justify-items: center !important; */
+}
+
+/* .pg-viewer-wrapper .pg-viewer {
+	padding-left: 37.5%;
+} */
+
+.add textarea.input{
+    height: 111px;
+    margin: 24px 0 20px 0;
+}
+
+.add .block-input textarea.input:focus~.label,
+.add .block-input textarea.input:not(:placeholder-shown)~.label {
+    transform: translateY(-6px);
+}
+
+.add textarea.input ~ .label {
+    top: -35px;
+}
+
+.add__form-cancel{
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+    color: var(--grey3-color)
+}

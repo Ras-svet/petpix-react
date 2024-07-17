@@ -1,0 +1,15 @@
+.sign-up__end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 44px;
+}
+
+.sign-up__message{
+    color: var(--grey3-color);
+}
+
+.sign-up__message-link{
+    color: var(--orange-color);
+}

@@ -1,0 +1,52 @@
+*, *::before, *::after{
+    font-family: 'Onest', sans-serif!important;
+}
+
+:root {
+    /* Color */
+    --white-color: #ffffff;
+    --grey1-color: #cfcfcf;
+    --grey2-color: #cfcfcf;
+    --grey3-color: #888888;
+    --black-color: #111111;
+    --orange-color: #ff914a;
+    --error-color: #fb8a8a;
+
+    /* Font size */
+    --headline1-size: 32px;
+    --headline2-size: 20px;
+    --headline3-size: 12px;
+    --text16-size: 16px;
+    --text14-size: 14px;
+    --text12-size: 12px;
+
+    /* Font weight */
+    --bold-weight: 700;
+    --medium-weight: 500;
+    --regual-weight: 400;
+}
+
+.body{
+    position: relative;
+    min-height: 100vh;
+}
+
+.container{
+    display: block;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 575px;
+}
+
+.body__portal-main{
+    padding-top: 95px;
+		margin-top: 10px;
+}
+
+.body__portal{
+    padding-top: 48px;
+}
+
+.hidden{
+    display: none;
+}

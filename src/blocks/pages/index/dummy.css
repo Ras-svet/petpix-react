@@ -1,0 +1,15 @@
+.feed_dummy-title{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.feed_dummy-description{
+    text-align: center;
+    color: var(--grey3-color);
+    max-width: 220px;
+    margin: 12px auto 32px auto;
+}
+
+.feed_dummy-btn{
+    margin-bottom: 32px;
+}

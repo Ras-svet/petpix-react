@@ -1,0 +1,48 @@
+.post__user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post__user-info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 7px;
+}
+
+.post__user-avatar{
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+.post__user-subscribe{
+    display: block;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.post__user-subscribe use:first-child{
+    fill: var(--error-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.post__user-subscribe use:last-child{
+    fill: var(--black-color);
+    transition: all 0.3s ease;
+}
+
+.favorite .post__user-subscribe use:first-child{
+    opacity: 1;
+}
+
+.favorite .post__user-subscribe use:last-child{
+    fill: var(--error-color);
+}
